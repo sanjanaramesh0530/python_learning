@@ -13,8 +13,8 @@ def primes_between(start, end):
     """Returns a list of prime numbers between start and end (exclusive)."""
     # Use start + 1 to exclude the starting prime itself
     return [num for num in range(start + 1, end) if is_prime(num)]
-lower_prime = 9
-upper_prime = 20
+lower_prime = 0
+upper_prime = 100
 
 # Get the list of primes in between
 result = primes_between(lower_prime, upper_prime)
